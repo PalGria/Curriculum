@@ -1,0 +1,21 @@
+.header{
+    border-style: solid;
+    border-width: 2px;
+    padding: 0px 0px 0px 0px; 
+    margin-top: 7px;
+    border-color: grey;
+}
+.resumeItem{
+    border-style: solid;
+    border-width: 2px;
+    padding: 0px 0px 0px 0px; 
+    margin-top: 7px;
+    border-color: grey;
+    text-align: center;
+}
+.leftElement.col-md-6{
+    padding-right: 7px; 
+}
+.rightElement.col-md-6{
+    padding-left: 7px;
+}
