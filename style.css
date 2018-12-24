@@ -50,3 +50,11 @@ div{
 .container-fluid {
     padding: 0px;
 }
+
+@media (max-width: 768px) {
+.fotoCurri{
+    max-height: 145px;
+}
+    
+  }
+  
