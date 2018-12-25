@@ -72,6 +72,9 @@ div{
     h1{
         margin-top:5px;
     }
+    .container{
+        padding: 0;
+    }
     
 }
       
