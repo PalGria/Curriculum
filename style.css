@@ -57,7 +57,9 @@ div{
     float: left;
     margin-right: 1em;
 }
-
+col-8{
+    text-align: center;
+}
 @media (max-width: 768px) {
     .fotoCurri{
         max-height: 145px;
@@ -77,4 +79,9 @@ div{
     }
     
 }
-      
+@media print 
+{
+    body {width:1200px;}
+    div[class|=col-]{float:left;}
+    .col-sm-6{width:50%}
+}
