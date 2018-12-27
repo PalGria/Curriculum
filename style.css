@@ -28,6 +28,11 @@ div{
     font-size: 24px;
 
 }
+.pdf{
+    text-align: right;
+    margin: 2px 5px 0px 0px;
+    font-size: 11px;
+}
 .header{
     border-style: solid;
     border-width: 3px;
@@ -81,7 +86,5 @@ col-8{
 }
 @media print 
 {
-    body {width:1200px;}
-    div[class|=col-]{float:left;}
-    .col-sm-6{width:50%}
+
 }
